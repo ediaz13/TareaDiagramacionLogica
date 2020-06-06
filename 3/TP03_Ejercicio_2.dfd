@@ -1,0 +1,48 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+2
+N1
+1
+0
+2
+N2
+1
+0
+4
+1
+52
+'Ingresar a continuación el valor del PRIMER Número'
+5
+1
+2
+N1
+4
+1
+53
+'Ingresar a continuación el valor del SEGUNDO Número'
+5
+1
+2
+N2
+7
+0
+1
+6
+N1>=N2
+4
+1
+55
+'Números ingresados en orden ascendente:' , N1, ' ', N2
+13
+4
+1
+54
+'Valores ingresados en orden ascendente :' ,N2, ' ',N1
+13
+1

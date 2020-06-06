@@ -1,0 +1,102 @@
+ Dfd (c)
+1
+1
+2
+0
+0
+6
+3
+8
+CantProd
+1
+0
+12
+Repeticiones
+1
+1
+5
+Total
+1
+0
+4
+1
+33
+'Ingrese cantidad de productos: '
+5
+1
+8
+CantProd
+9
+1
+24
+Repeticiones <= CantProd
+12
+1
+18
+ProductoIndividual
+1
+5
+Total
+6
+1
+12
+Repeticiones
+15
+Repeticiones +1
+11
+4
+1
+29
+'El total a pagar es: ',Total
+1
+2
+1
+18
+ProductoIndividual
+1
+5
+Total
+0
+6
+3
+6
+Precio
+1
+0
+8
+Cantidad
+1
+0
+8
+Impuesto
+1
+0
+4
+1
+56
+'Ingrese precio, cantidad y % de impuesto de producto: '
+5
+1
+26
+Precio, Cantidad, Impuesto
+6
+2
+9
+TotalProd
+1
+0
+5
+Total
+5
+Total
+6
+2
+9
+TotalProd
+48
+Precio*Cantidad + Precio*Cantidad*(Impuesto/100)
+5
+Total
+17
+Total + TotalProd
+3

@@ -1,0 +1,76 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+8
+Desayuno
+6
+3
+4
+cafe
+1
+0
+5
+leche
+1
+0
+6
+azucar
+1
+0
+4
+1
+28
+'Tomar una taza, hay cafe? '
+5
+1
+4
+cafe
+7
+0
+1
+6
+cafe>0
+13
+4
+1
+34
+'Que bueno me queda cafe, leche? '
+13
+5
+1
+5
+leche
+7
+0
+1
+7
+leche>0
+13
+4
+1
+34
+'Ya casi estamos, uhh, y azucar? '
+13
+5
+1
+6
+azucar
+7
+0
+1
+8
+azucar>0
+4
+1
+50
+'Rayos y recorcholis, fue sigo hasta el almuerzo '
+13
+4
+1
+32
+'Esselente, puedo desayunar :) '
+13
+1

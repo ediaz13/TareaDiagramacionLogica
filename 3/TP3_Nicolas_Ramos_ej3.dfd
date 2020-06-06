@@ -1,0 +1,33 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+77
+'Ingresar 2 numeros, estos se multiplicaran y luego se le restara el primero'
+5
+1
+2
+n1
+5
+1
+2
+n2
+6
+2
+1
+V
+5
+n1*n2
+1
+R
+4
+V-n1
+4
+1
+35
+' El resultado simplemente es ' , R
+1

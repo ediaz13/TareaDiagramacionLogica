@@ -1,0 +1,44 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+7
+CantRep
+1
+0
+15
+NumeroIngresado
+1
+0
+4
+1
+76
+'Ingrese un numero a partir del cual quiere mostrar seis numeros naturales.'
+5
+1
+15
+NumeroIngresado
+9
+1
+11
+CantRep < 6
+6
+2
+7
+CantRep
+11
+CantRep + 1
+15
+NumeroIngresado
+19
+NumeroIngresado + 1
+4
+1
+36
+'NumeroIngresado: ', NumeroIngresado
+11
+1

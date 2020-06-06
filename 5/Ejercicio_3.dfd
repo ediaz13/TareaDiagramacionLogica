@@ -1,0 +1,81 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+8
+Apellido
+7
+'Perez'
+6
+Nombre
+6
+'Juan'
+8
+DescProd
+8
+'Bonito'
+6
+3
+6
+Precio
+1
+0
+8
+Cantidad
+1
+0
+8
+Impuesto
+1
+0
+6
+1
+15
+ImpuestoPerCent
+1
+0
+4
+1
+31
+'Ingrese su nombre y apellido:'
+5
+1
+16
+Nombre, Apellido
+4
+1
+34
+'Ingrese descripcion de producto:'
+5
+1
+8
+DescProd
+4
+1
+54
+'Ingrese el precio, cantidad e impuesto (%) a abonar:'
+5
+1
+26
+Precio, Cantidad, Impuesto
+6
+1
+15
+ImpuestoPerCent
+12
+Impuesto/100
+6
+1
+5
+Total
+49
+Precio*Cantidad + Precio*Cantidad*ImpuestoPerCent
+4
+1
+185
+'Apellido: ', Apellido, ', Nombre: ', Nombre, ', Descripcion de producto: ', DescProd, ', Precio: ', Precio, ', Cantidad: ', Cantidad, ', Impuesto (%): ',  Impuesto, ', Total: ' , Total
+1

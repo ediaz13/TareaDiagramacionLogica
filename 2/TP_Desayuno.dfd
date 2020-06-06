@@ -1,0 +1,96 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+4
+café
+1
+0
+5
+leche
+1
+0
+4
+taza
+1
+0
+6
+3
+6
+azucar
+1
+0
+9
+CafeListo
+1
+0
+9
+IrAlSuper
+1
+0
+4
+1
+30
+'Ingresar la cantidad de cafe'
+5
+1
+4
+cafe
+7
+0
+1
+8
+cafe > 0
+4
+1
+61
+'No podes preparar un cafe con leche sin cafe, anda al super'
+13
+4
+1
+31
+'Ingresar la cantidad de leche'
+5
+1
+5
+leche
+7
+0
+1
+9
+leche > 0
+4
+1
+62
+'No podes preparar un cafe con leche sin leche, anda al super'
+13
+4
+1
+32
+'Ingresar la cantidad de azucar'
+5
+1
+6
+azucar
+7
+0
+1
+10
+azucar > 0
+4
+1
+63
+'No podes preparar un cafe con leche sin azucar, anda al super'
+13
+4
+1
+34
+'Esta preparado el cafe con leche'
+13
+13
+13
+1
