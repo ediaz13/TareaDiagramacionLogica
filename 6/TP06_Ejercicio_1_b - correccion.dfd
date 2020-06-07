@@ -33,12 +33,6 @@ total
 1
 0
 6
-1
-5
-error
-1
-0
-6
 2
 6
 posmay
@@ -74,25 +68,8 @@ numero
 7
 validar
 1
-20
-vec, x, numero,error
-4
-1
-16
-'Error: ', error
-7
-0
-1
-9
-error = 1
-6
-1
-6
-vec(x)
-6
-numero
-13
-13
+14
+vec, x, numero
 10
 8
 1
@@ -164,8 +141,8 @@ total/x
 7
 validar
 1
-28
-i_vec, i_x, i_numero,i_error
+20
+i_vec, i_x, i_numero
 0
 6
 2
@@ -197,17 +174,17 @@ hasta
 i_numero=i_vec(n)
 6
 1
-7
-i_error
-1
-0
+8
+i_vec(n)
+8
+i_numero
 13
 4
 1
 73
 'Nro ingresado repetido. Reingrese un numero que no haya ingresado antes'
 6
-3
+2
 3
 i_x
 5
@@ -216,10 +193,6 @@ i_x-1
 n
 5
 hasta
-7
-i_error
-1
-1
 13
 10
 3
