@@ -1,0 +1,295 @@
+ Dfd (c)
+1
+1
+7
+0
+0
+6
+3
+3
+dia
+2
+00
+3
+mes
+2
+00
+3
+año
+4
+0000
+6
+3
+8
+diaHasta
+2
+00
+8
+mesHasta
+2
+00
+8
+añoHasta
+4
+0000
+6
+1
+10
+esBisiesto
+1
+0
+4
+1
+47
+'Ingrese fecha dia(dd), mes (mm), y año (aaaa)'
+12
+1
+9
+SetFechas
+1
+25
+dia, mes, año, esBisiesto
+4
+1
+50
+'La fecha ingresada es: ', dia, '/', mes, '/', año
+1
+2
+1
+9
+SetFechas
+1
+33
+dia_r, mes_r, año_r, esBisiesto_r
+0
+12
+1
+10
+IngresaAño
+1
+19
+año_r, esBisiesto_r
+12
+1
+10
+IngresaMes
+1
+5
+mes_r
+12
+1
+10
+IngresaDia
+1
+26
+dia_r, mes_r, esBisiesto_r
+3
+2
+1
+10
+IngresaDia
+1
+26
+dia_r, mes_r, esBisiesto_r
+1
+25
+Ingresa y valida los dias
+4
+1
+14
+'Ingresa dias'
+5
+1
+5
+dia_r
+12
+1
+18
+VerificaValidezDia
+1
+26
+dia_r, mes_r, esBisiesto_r
+4
+1
+5
+dia_r
+3
+2
+1
+10
+IngresaMes
+1
+5
+mes_r
+1
+26
+Ingresa y valida los meses
+4
+1
+13
+'Ingresa mes'
+5
+1
+5
+mes_r
+9
+1
+23
+mes_r < 1 OR mes_r > 12
+4
+1
+29
+'Tiene que ser un mes valido'
+5
+1
+5
+mes_r
+11
+3
+2
+1
+10
+IngresaAño
+1
+19
+año_r, esBisiesto_r
+1
+22
+Ingresa y valida años.
+4
+1
+29
+'Ingresa la cantidad de años'
+5
+1
+5
+año_r
+9
+1
+9
+año_r < 1
+4
+1
+23
+'Ingrese un año valido'
+5
+1
+5
+año_r
+11
+12
+1
+13
+EsAñoBisiesto
+1
+19
+año_r, esBisiesto_r
+3
+2
+1
+18
+VerificaValidezDia
+1
+26
+dia_r, mes_r, esBisiesto_r
+0
+7
+0
+1
+90
+mes_r = 1 OR mes_r = 3 OR mes_r = 5 OR mes_r = 7 OR mes_r = 8 OR mes_r = 10 OR mes_r = 12 
+7
+0
+1
+49
+mes_r = 4 OR mes_r = 6 OR mes_r = 9 OR mes_r = 11
+7
+0
+1
+16
+esBisiesto_r = 1
+9
+1
+23
+dia_r < 1 OR dia_r > 28
+4
+1
+29
+'Tiene que ser un dia valido'
+5
+1
+5
+dia_r
+11
+13
+9
+1
+23
+dia_r < 1 OR dia_r > 29
+4
+1
+29
+'Tiene que ser un dia valido'
+5
+1
+5
+dia_r
+11
+13
+13
+9
+1
+23
+dia_r < 1 OR dia_r > 30
+4
+1
+29
+'Tiene que ser un dia valido'
+5
+1
+5
+dia_r
+11
+13
+13
+9
+1
+23
+dia_r < 1 OR dia_r > 31
+4
+1
+29
+'Tiene que ser un dia valido'
+5
+1
+5
+dia_r
+11
+13
+3
+2
+1
+13
+EsAñoBisiesto
+1
+19
+año_r, esBisiesto_r
+0
+7
+0
+1
+15
+año_r mod 4 = 0
+13
+4
+1
+46
+'Año bisiesto, se permite poner 29 de febrero'
+6
+1
+12
+esBisiesto_r
+1
+1
+13
+3
