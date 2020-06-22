@@ -33,9 +33,17 @@ añoHasta
 4
 0000
 6
-1
+3
 10
 esBisiesto
+1
+0
+7
+esHasta
+1
+0
+15
+esBisiestoHasta
 1
 0
 4
@@ -44,56 +52,82 @@ esBisiesto
 'Ingrese fecha dia(dd), mes (mm), y año (aaaa)'
 12
 1
-9
-SetFechas
+8
+SetFecha
 1
-25
-dia, mes, año, esBisiesto
+81
+dia, mes, año, esBisiesto, diaHasta, mesHasta, añoHasta, esBisiestoHasta, esHasta
+6
+1
+7
+esHasta
+1
+1
+4
+1
+57
+'Ingrese fecha posterior dia(dd), mes (mm), y año (aaaa)'
+12
+1
+8
+SetFecha
+1
+81
+dia, mes, año, esBisiesto, diaHasta, mesHasta, añoHasta, esBisiestoHasta, esHasta
 4
 1
 50
 'La fecha ingresada es: ', dia, '/', mes, '/', año
+4
+1
+75
+'La fecha posterior ingresada es: ', diaHasta, '/', mesHasta, '/', añoHasta
 1
 2
 1
-9
-SetFechas
+8
+SetFecha
 1
-33
-dia_r, mes_r, año_r, esBisiesto_r
+99
+dia_r, mes_r, año_r, esBisiesto_r, diaHasta_r, mesHasta_r, añoHasta_r, esBisiestoHasta_r, esHasta_r
 0
 12
 1
 10
 IngresaAño
 1
-19
-año_r, esBisiesto_r
+61
+año_r, esBisiesto_r, añoHasta_r, esBisiestoHasta_r, esHasta_r
 12
 1
 10
 IngresaMes
 1
-5
-mes_r
+47
+mes_r, año_r, mesHasta_r, añoHasta_r, esHasta_r
 12
 1
 10
 IngresaDia
 1
-26
-dia_r, mes_r, esBisiesto_r
+80
+dia_r, mes_r, esBisiesto_r, diaHasta_r, mesHasta_r, esBisiestoHasta_r, esHasta_r
 3
 2
 1
 10
 IngresaDia
 1
-26
-dia_r, mes_r, esBisiesto_r
+80
+dia_r, mes_r, esBisiesto_r, diaHasta_r, mesHasta_r, esBisiestoHasta_r, esHasta_r
 1
 25
 Ingresa y valida los dias
+7
+0
+1
+13
+esHasta_r = 1
 4
 1
 14
@@ -113,17 +147,82 @@ dia_r, mes_r, esBisiesto_r
 1
 5
 dia_r
+13
+7
+0
+1
+18
+mes_r = mesHasta_r
+4
+1
+32
+'Ingresa dia de fecha posterior'
+5
+1
+10
+diaHasta_r
+12
+1
+18
+VerificaValidezDia
+1
+41
+diaHasta_r, mesHasta_r, esBisiestoHasta_r
+4
+1
+10
+diaHasta_r
+13
+4
+1
+32
+'Ingresa dia de fecha posterior'
+5
+1
+10
+diaHasta_r
+9
+1
+19
+diaHasta_r <= dia_r
+4
+1
+30
+'Debe ser una fecha posterior'
+5
+1
+10
+diaHasta_r
+11
+12
+1
+18
+VerificaValidezDia
+1
+41
+diaHasta_r, mesHasta_r, esBisiestoHasta_r
+4
+1
+10
+diaHasta_r
+13
+13
 3
 2
 1
 10
 IngresaMes
 1
-5
-mes_r
+47
+mes_r, año_r, mesHasta_r, añoHasta_r, esHasta_r
 1
 26
 Ingresa y valida los meses
+7
+0
+1
+13
+esHasta_r = 1
 4
 1
 13
@@ -145,17 +244,73 @@ mes_r < 1 OR mes_r > 12
 5
 mes_r
 11
+13
+7
+0
+1
+18
+año_r = añoHasta_r
+4
+1
+13
+'Ingresa mes'
+5
+1
+10
+mesHasta_r
+9
+1
+33
+mesHasta_r < 1 OR mesHasta_r > 12
+4
+1
+29
+'Tiene que ser un mes valido'
+5
+1
+10
+mesHasta_r
+11
+13
+4
+1
+13
+'Ingresa mes'
+5
+1
+10
+mesHasta_r
+9
+1
+55
+mesHasta_r < 1 OR mesHasta_r > 12 OR mes_r > mesHasta_r
+4
+1
+61
+'Tiene que ser un mes valido o fecha porterior a la anterior'
+5
+1
+10
+mesHasta_r
+11
+13
+13
 3
 2
 1
 10
 IngresaAño
 1
-19
-año_r, esBisiesto_r
+61
+año_r, esBisiesto_r, añoHasta_r, esBisiestoHasta_r, esHasta_r
 1
 22
 Ingresa y valida años.
+7
+0
+1
+13
+esHasta_r = 1
 4
 1
 29
@@ -184,6 +339,36 @@ EsAñoBisiesto
 1
 19
 año_r, esBisiesto_r
+13
+4
+1
+40
+'Ingresa el año de una fecha posterior.'
+5
+1
+10
+añoHasta_r
+9
+1
+36
+añoHasta_r < 1 OR añoHasta_r < año_r
+4
+1
+55
+'Ingrese un año valido o posterior a la fecha anterior'
+5
+1
+10
+añoHasta_r
+11
+12
+1
+13
+EsAñoBisiesto
+1
+29
+añoHasta_r, esBisiestoHasta_r
+13
 3
 2
 1
