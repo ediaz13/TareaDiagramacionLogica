@@ -1,0 +1,739 @@
+ Dfd (c)
+1
+1
+13
+0
+0
+4
+1
+21
+'Ejercicio 1 - TP 10'
+6
+3
+8
+meses(6)
+2
+''
+13
+vendedores(3)
+2
+''
+13
+ventass(6, 3)
+1
+0
+6
+3
+13
+ventasTotales
+1
+0
+6
+opcion
+1
+0
+1
+i
+1
+0
+12
+1
+10
+CargoMeses
+1
+5
+meses
+4
+1
+338
+'M E N U ---- > Ingrese opción deseada :
+1 - Cargar vendedor nuevo. 
+2- Mostrar Total de ventas de los meses pares de los dos primeros vendedores.
+3- Mostrar promedio de ventas y totales de 1 mes. 
+4- Mostrar venta de un vendedor para mes determinado.
+5- Mostrar todas las ventas de un vendedor solicitado por teclado.
+9- Finalizar'
+5
+1
+6
+opcion
+12
+1
+13
+ValidarOpcion
+1
+52
+opcion, i,  vendedores, ventas, meses, ventasTotales
+1
+2
+1
+10
+CargoMeses
+1
+7
+meses_r
+1
+41
+Carga los nombres de los primeros 6 meses
+6
+3
+10
+meses_r(1)
+7
+'Enero'
+10
+meses_r(2)
+9
+'Febrero'
+10
+meses_r(3)
+7
+'Marzo'
+6
+3
+10
+meses_r(4)
+7
+'Abril'
+10
+meses_r(5)
+6
+'Mayo'
+10
+meses_r(6)
+7
+'Junio'
+3
+2
+1
+15
+CargoVendedores
+1
+17
+vendedores_v, i_v
+1
+36
+Cargo los nombres de los vendedores.
+4
+1
+44
+'Ingrese el nombre del vendedor N°: ', i_v+1
+5
+1
+17
+vendedores_v(i_v)
+6
+1
+3
+i_v
+6
+i_v +1
+4
+1
+32
+'Vendedor cargado correctamente'
+3
+2
+1
+25
+SumaMesesParesPrimerosDos
+1
+48
+meses_r, vendedores_r, ventas_r, ventasTotales_r
+0
+6
+2
+1
+j
+1
+0
+1
+i
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+1
+6
+1
+1
+1
+8
+1
+1
+j
+1
+1
+1
+1
+1
+2
+1
+1
+1
+7
+0
+1
+11
+i MOD 2 = 0
+13
+6
+1
+15
+ventasTotales_r
+32
+ventasTotales_r + ventas_r(i, j)
+13
+10
+10
+4
+1
+102
+'Las ventas totales de los meses pares para los primeros dos vendedores fueron de : ', ventasTotales_r
+3
+2
+1
+4
+Menu
+1
+64
+opcion_m, i_m,  vendedores_m, ventas_m, meses_m, ventasTotales_m
+1
+31
+Manejo de las opciones del menu
+7
+0
+1
+12
+opcion_m = 1
+7
+0
+1
+7
+i_m < 2
+7
+0
+1
+12
+opcion_m = 2
+7
+0
+1
+12
+opcion_m = 3
+7
+0
+1
+12
+opcion_m = 4
+7
+0
+1
+12
+opcion_m = 5
+13
+4
+1
+65
+'Mostrar todas las ventas de un vendedor solicitado por teclado.'
+12
+1
+19
+TotalVentasVendedor
+1
+36
+vendedores_m, ventas_m, i_m, meses_m
+13
+13
+4
+1
+51
+'Mostrar venta de un vendedor para mes determinado'
+12
+1
+24
+MostrarVentasMesVendedor
+1
+37
+ vendedores_m, ventas_m, i_m, meses_m
+13
+13
+4
+1
+48
+'Mostrar promedio de ventas y totales de 1 mes.'
+12
+1
+23
+PromedioMesesTotalDeUno
+1
+36
+meses_m, vendedores_m, ventas_m, i_m
+13
+13
+4
+1
+76
+'Mostrar Total de ventas de los meses pares de los dos primeros vendedores.'
+12
+1
+25
+SumaMesesParesPrimerosDos
+1
+48
+meses_m, vendedores_m, ventas_m, ventasTotales_m
+13
+13
+4
+1
+83
+'No se puede utilizar esta opcion hasta tener cargado por lo menos dos vendedores.'
+13
+13
+4
+1
+24
+'Ingreso nuevo vendedor'
+12
+1
+15
+CargoVendedores
+1
+17
+vendedores_m, i_m
+12
+1
+20
+VentasPrimerSemestre
+1
+36
+meses_m, vendedores_m, ventas_m, i_m
+13
+3
+2
+1
+20
+VentasPrimerSemestre
+1
+41
+meses_r, vendedores_r, ventas_r, vendedor
+1
+30
+Cargo las ventas del semestre.
+6
+1
+3
+i_v
+1
+0
+8
+1
+3
+i_v
+1
+1
+1
+1
+1
+6
+1
+1
+1
+4
+1
+91
+'Ingrese las ventas del mes: ', meses_r(i_v), ', del vendedor: ', vendedores_r(vendedor -1)
+5
+1
+23
+ventas_r(i_v, vendedor)
+4
+1
+23
+ventas_r(i_v, vendedor)
+10
+4
+1
+88
+'Se cargaron correctaemnte los valores de venta del vendedor ', vendedores_r(vendedor-1)
+3
+2
+1
+23
+PromedioMesesTotalDeUno
+1
+36
+meses_p, vendedores_p, ventas_p, i_p
+1
+57
+Calculo el promedio de todos los meses y el total de uno.
+6
+3
+1
+i
+1
+0
+1
+j
+1
+0
+7
+divisor
+1
+0
+6
+3
+3
+mes
+1
+0
+8
+promedio
+1
+0
+5
+total
+1
+0
+6
+1
+8
+totalMes
+1
+0
+4
+1
+41
+'Ingresa el mes del que queres el total.'
+5
+1
+3
+mes
+12
+1
+11
+VerificoMes
+1
+3
+mes
+12
+1
+17
+SumaTotalYDivisor
+1
+51
+i, j, mes, total, totalMes, ventas_p, divisor, i_p 
+6
+1
+8
+promedio
+13
+total/divisor
+4
+1
+47
+'El promedio de todos los meses es: ', promedio
+4
+1
+56
+'El total del mes :', meses_p(mes), ' es de: ', totalMes
+3
+2
+1
+11
+VerificoMes
+1
+5
+mes_r
+0
+9
+1
+22
+mes_r < 1 OR mes_r > 6
+4
+1
+53
+'El mes ingresado debe estar comprendido entre 1 y 6'
+5
+1
+5
+mes_r
+11
+3
+2
+1
+17
+SumaTotalYDivisor
+1
+77
+i_r, j_r, mes_r, total_r, totalMes_r, ventas_r, divisor_r, cantidadVendedores
+1
+29
+Suma total y seteo de divisor
+8
+1
+3
+i_r
+1
+1
+1
+1
+1
+6
+1
+1
+1
+8
+1
+3
+j_r
+1
+1
+1
+1
+18
+cantidadVendedores
+1
+1
+1
+7
+0
+1
+11
+i_r = mes_r
+13
+6
+1
+11
+totalMes_r 
+30
+totalMes_r + ventas_r(i_r,j_r)
+13
+6
+2
+7
+total_r
+28
+total_r + ventas_r(i_r, j_r)
+9
+divisor_r
+12
+divisor_r +1
+10
+10
+3
+2
+1
+24
+MostrarVentasMesVendedor
+1
+48
+vendedores_r, ventas_r, totalVendedores, meses_r
+0
+6
+2
+14
+numeroVendedor
+1
+0
+9
+numeroMes
+1
+0
+4
+1
+29
+'Ingrese numero de vendedor.'
+5
+1
+14
+numeroVendedor
+12
+1
+16
+VerificoVendedor
+1
+31
+numeroVendedor, totalVendedores
+4
+1
+24
+'Ingrese numero de mes.'
+5
+1
+9
+numeroMes
+12
+1
+11
+VerificoMes
+1
+9
+numeroMes
+4
+1
+153
+'El numero de ventas del vendedor ', vendedores_r(numeroVendedor-1),  ' en el mes de ',  meses_r(numeroMes), ' es: ', ventas_r(numeroMes, numeroVendedor)
+3
+2
+1
+16
+VerificoVendedor
+1
+26
+nroVendedor, totVendedores
+0
+9
+1
+47
+nroVendedor < 1 OR  nroVendedor > totVendedores
+4
+1
+39
+'Ingrese un numero de vendedor valido.'
+5
+1
+14
+numeroVendedor
+6
+1
+11
+nroVendedor
+14
+numeroVendedor
+11
+3
+2
+1
+19
+TotalVentasVendedor
+1
+49
+ vendedores_r, ventas_r, totalVendedores, meses_r
+1
+53
+Calculo la cantidad de ventas totales de un vendedor.
+6
+3
+14
+numeroVendedor
+1
+0
+9
+numeroMes
+1
+0
+13
+totalVendedor
+1
+0
+6
+1
+1
+i
+1
+0
+4
+1
+29
+'Ingrese numero de vendedor.'
+5
+1
+14
+numeroVendedor
+12
+1
+16
+VerificoVendedor
+1
+31
+numeroVendedor, totalVendedores
+8
+1
+1
+i
+1
+1
+1
+1
+1
+6
+1
+1
+1
+6
+1
+13
+totalVendedor
+43
+totalVendedor + ventas_r(i, numeroVendedor)
+10
+4
+1
+92
+'Las ventas totales del vendedor ', vendedores_r(numeroVendedor-1),  ' son: ', totalVendedor
+3
+2
+1
+13
+ValidarOpcion
+1
+64
+opcion_o, i_o,  vendedores_o, ventas_o, meses_o, ventasTotales_o
+0
+9
+1
+13
+opcion_o != 9
+9
+1
+28
+opcion_o < 1 OR opcion_o > 6
+4
+1
+27
+'Ingrese una opcion válida'
+4
+1
+340
+'M E N U ---- > Ingrese opción deseada :
+1 - Cargar vendedor nuevo.
+2- Mostrar Total de ventas de los meses pares de los dos primeros vendedores. 
+3- Mostrar promedio de ventas y totales de 1 mes. 
+4- Mostrar venta de un vendedor para mes determinado. 
+5- Mostrar todas las ventas de un vendedor solicitado por teclado. 
+9- Finalizar'
+5
+1
+8
+opcion_o
+11
+12
+1
+4
+Menu
+1
+64
+opcion_o, i_o,  vendedores_o, ventas_o, meses_o, ventasTotales_o
+4
+1
+340
+'M E N U ---- > Ingrese opción deseada :
+1 - Cargar vendedor nuevo.
+2- Mostrar Total de ventas de los meses pares de los dos primeros vendedores. 
+3- Mostrar promedio de ventas y totales de 1 mes. 
+4- Mostrar venta de un vendedor para mes determinado. 
+5- Mostrar todas las ventas de un vendedor solicitado por teclado. 
+9- Finalizar'
+5
+1
+8
+opcion_o
+11
+3
